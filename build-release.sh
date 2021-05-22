@@ -1,4 +1,5 @@
 #!/bin/bash
+./setup.sh
 cd mesa || exit 1
 RECONFIGURE=""
 if [ -d release-build ]; then
